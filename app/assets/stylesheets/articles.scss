@@ -1,0 +1,60 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+* { border:0; margin:0; padding:0; }
+
+body {
+  font-family: Arial;
+}
+
+#navbar {
+  background-color: #F8F8F8;
+  height: 60px;
+  border: 1px solid darkgrey;
+  margin-bottom: 40px;
+}
+
+.container-navbar {
+  width: 97%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbar a {
+  text-decoration: none;
+  font-size: 18px;
+  color: grey;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+  padding: 0px;
+}
+
+.title {
+  font-size: 30px;
+  line-height: 50px;
+  text-decoration: none;
+}
+
+.content {
+  margin-bottom: 15px;
+}
+
+#title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  line-height: 50px;
+  border-bottom: 1px solid lightgrey;
+}
+
+#content {
+  margin: 40px 0;
+}

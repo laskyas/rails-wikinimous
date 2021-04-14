@@ -1,0 +1,14 @@
+<div class="container">
+  <div id="title">
+    <h2><%= @article.title %></h2>
+    <div class="edit">
+    <%= link_to "Edit", edit_article_path(@article) %>
+  </div>
+  </div>
+  <div id="content">
+    <p><%= @article.content %></p>
+  </div>
+
+  <%= link_to "Back", articles_path %>
+
+</div>
